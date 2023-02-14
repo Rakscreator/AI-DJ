@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Tesla';
+    src: url('TESLA.ttf');
+}
+body{
+    background:url("background.jpg");
+    color: white;
+    background-size: cover;
+    font-family: "Tesla";
+}
+#header{
+    color: aqua;
+    text-shadow:
+    0 0 7px rgb(0, 255, 221),
+    0 0 10px rgb(0, 255, 221),
+    0 0 21px rgb(0, 255, 221),
+    0 0 42px rgb(0, 0, 225),
+    0 0 82px rgb(0, 0, 225),
+    0 0 92px rgb(0, 0, 255),
+    0 0 102px rgb(0, 0, 255),
+    0 0 151px rgb(0, 0, 255);
+    font-size: 23px;
+    font-family: 'Tesla';
+}
+.note{
+    font-size: 15px;
+    color: #fff;
+}
+#div_speed{
+    float: left;
+    margin-left: 20px;
+}
+#div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#div_volume{
+    float: right;
+    margin-right: 20px;
+}
+#div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+.footer{
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    margin-left: 490px;
+    color: aqua;
+    text-shadow:
+    0 0 7px rgb(0, 255, 221),
+    0 0 10px rgb(0, 255, 221),
+    0 0 21px rgb(0, 255, 221),
+    0 0 42px rgb(0, 0, 225),
+    0 0 82px rgb(0, 0, 225),
+    0 0 92px rgb(0, 0, 255),
+    0 0 102px rgb(0, 0, 255),
+    0 0 151px rgb(0, 0, 255);
+    margin-bottom: 16px;
+    font-size: 25px;
+}
+canvas{
+    border: white solid 3px;
+    border-radius: 30px;
+    margin-top: 210px;
+    box-shadow:
+    0 0 3px rgb(0, 255, 221),
+    0 0 12px rgb(0, 255, 221),
+    0 0 19px rgb(0, 255, 221),
+    0 0 35px rgb(0, 255, 221),
+    0 0 62px rgb(0, 255, 221),
+    0 0 82px rgb(0, 255, 221),
+    0 0 101px rgb(0, 0, 255),
+    0 0 105px rgb(0, 0, 255);
+}
+#btnplay{
+    margin-top: -50px;
+}
+#btnstop{
+    margin-top: -50px;
+}
+#file-upload__input {
+  appearance: none;
+  background: #009879;
+  border: 2px solid #00745d;
+  border-radius: 4px;
+  outline: none;
+  padding: 0.5em 0.8em;
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: "Tesla", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
